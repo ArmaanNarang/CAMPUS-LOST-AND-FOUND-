@@ -1,0 +1,9 @@
+# Compiled program files
+*.exe
+*.out
+campus_finder
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
