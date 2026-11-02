@@ -19,9 +19,7 @@ Campus Lost & Found System is a menu-driven application developed using the C pr
 4. View All Reported Items
 5. Remove Item
 6. Exit the Application
-## 📊 Project Flowchart
-
-![Campus Lost & Found System Flowchart](flowchart.png)
+ ![Campus Lost & Found System Flowchart](flowchart.png.jpeg)
 
 🛠️ Technologies Used
 
