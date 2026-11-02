@@ -1,46 +1,63 @@
-# Campus Lost & Found System
+🎓 Campus Lost & Found System
 
-A beginner-friendly console application written in C to report and manage lost and found items on a campus.
+📌 About the Project
 
-## Features
-- Report a lost item
-- Report a found item
-- Search for an item by exact name
-- View all reported items
-- Remove an item by its displayed number
-- Save records in `items.txt` so they can be loaded the next time the program runs
+Campus Lost & Found System is a menu-driven application developed using the C programming language. It helps students report lost and found items within a college campus and makes it easier to search and manage item records.
 
-## Requirements
-- A C compiler (GCC recommended)
-- C99 or later
+🎯 Objectives
 
-## Run the project
+- Provide a simple platform to report lost items.
+- Allow users to report found items.
+- Help users search for missing belongings.
+- Maintain item records using file handling.
 
-### Linux / macOS
-```bash
-gcc main.c -o campus_finder
-./campus_finder
-```
+✨ Features
 
-### Windows (MinGW GCC)
-```bash
-gcc main.c -o campus_finder.exe
-campus_finder.exe
-```
+1. Report Lost Item
+2. Report Found Item
+3. Search for Item
+4. View All Reported Items
+5. Remove Item
+6. Exit the Application
 
-The program creates `items.txt` in the current working directory when it saves records.
+🛠️ Technologies Used
 
-## Data format
-Each record is stored as:
-```text
-type|item name|location
-```
-`1` means Lost and `2` means Found.
+- Programming Language: C
+- Compiler: GCC
+- Concepts: Structures, Functions, Arrays, Loops, Conditional Statements and File Handling.
 
-## Notes
-- Search currently requires the exact item name (including capitalization).
-- This is a learning project, not a production campus service.
-- Avoid using the `|` character in item names or locations because it separates fields in the data file.
+💾 Data Storage
 
-## Author
-Add your name here.
+The application uses a text file named "items.txt" to save item records. Previously saved records are loaded when the application starts.
+
+▶️ How to Run
+
+1. Download or clone this repository.
+
+2. Open the project folder.
+
+3. Compile the program:
+   
+   "gcc main.c -o campus_finder"
+
+4. Run the program:
+   
+   "./campus_finder"
+
+🚀 Future Improvements
+
+- Add student login and registration.
+- Add item images.
+- Add a graphical user interface.
+- Develop an online database.
+- Add contact details for item owners.
+
+👨‍💻 Project Information
+
+Project Name: Campus Lost & Found System
+Language: C Programming
+Project Type: College Academic Project
+
+📜 License
+
+This project is created for educational purposes.
