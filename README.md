@@ -38,12 +38,6 @@ Campus Lost & Found System is a menu-driven application developed using the C pr
 
 
 
-## Flowchart
-
-
-
-![Flowchart](flowchart.png.jpeg)
-
 🛠️ Technologies Used
 
 - Programming Language: C
